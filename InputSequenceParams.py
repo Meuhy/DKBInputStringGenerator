@@ -12,7 +12,7 @@ class InputSequenceParams:
     show_jump_button: bool = True
 
     colored_buttons: bool = True
-    directional_colors: bool = True
+    directional_colors: bool = False
 
     font_size: int = 32
     stroke_width: int = 2
