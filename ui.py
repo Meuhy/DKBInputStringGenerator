@@ -18,10 +18,30 @@ def resource_path(relative_path):
 
     return base_path / relative_path
 
+def get_app_data_path():
+    if sys.platform == "win32":
+        return Path(
+            os.environ["LOCALAPPDATA"]
+        ) / "DKBInputStringGenerator"
+
+    elif sys.platform == "darwin":
+        return (
+            Path.home()
+            / "Library"
+            / "Application Support"
+            / "DKBInputStringGenerator"
+        )
+
+    else:
+        return (
+            Path.home()
+            / ".local"
+            / "share"
+            / "DKBInputStringGenerator"
+        )
+
 def get_last_settings_path():
-    app_data = Path(
-        os.environ["LOCALAPPDATA"]
-    ) / "InputSequenceGenerator"
+    app_data = get_app_data_path()
 
     app_data.mkdir(
         parents=True,

@@ -72,11 +72,15 @@ IFAT: Repeat (Unsurf > Surf > Attack+Jump)
 Flutter Stall: Repeat (Surf+Stall)
 ```
 
-## Installation
+## Installation (Windows)
 
 If you want to use the app, simply download the [latest release](https://github.com/Meuhy/DKBInputStringGenerator/releases/latest).
 
 If you want to modify the app, then do the following:
+
+**Requierements**
+ - Python 3
+ - Git
 
 Clone the repository:
 `git clone https://github.com/Meuhy/DKBInputStringGenerator.git`
@@ -85,10 +89,10 @@ Clone the repository:
 Create a virtual environment:
 `python -m venv venv`
 
-Activate it (Windows):
+Activate it:
 `.\venv\Scripts\Activate.ps1`
 
-Install the required librairies:
+Install the required dependencies:
 `python -m pip install -r requirements.txt`
 
 To run the app:
@@ -96,6 +100,38 @@ To run the app:
 
 Generate the executable with
 ```python -m PyInstaller --onefile --windowed --name "DKB Input String Generator" --icon=icon.ico --add-data "fonts;fonts" --add-data "icons;icons" --add-data "icon.ico;." ui.py```
+
+The application will be created in: `dist/DKB Input String Generator.app`
+
+# Installation (MacOS)
+I don't have a PC running on MacOS so I can't check if this works, sorry :(
+
+**Requierements**
+ - Python 3
+ - Git
+
+In a terminal, Clone the repository:
+`git clone https://github.com/Meuhy/DKBInputStringGenerator.git`
+
+Naviaguate into the project directory:
+`cd DKBInputStringGenerator`
+
+Create a virtual environment:
+`python3 -m venv venv`
+
+Activate it:
+`source venv/bin/activate`
+
+Install the required dependencies:
+`python3 -m pip install -r requirements.txt`
+
+To run the app:
+`python3 ui.py`
+
+Generate the executable with
+```python3 -m PyInstaller --windowed --name "DKB Input String Generator" --icon=icon.icns --add-data "fonts:fonts" --add-data "icons:icons" ui.py```
+
+The application will be created in: `dist/DKB Input String Generator.app`
 
 ## Credits
 Thanks to mystimious for providing the Donkey Kong Bananza style Pro Conroller icons.
