@@ -96,3 +96,8 @@ To run the app:
 
 Generate the executable with
 ```python -m PyInstaller --onefile --windowed --name "DKB Input String Generator" --icon=icon.ico --add-data "fonts;fonts" --add-data "icons;icons" --add-data "icon.ico;." ui.py```
+
+## Credits
+Thanks to mystimious for providing the Donkey Kong Bananza style Pro Conroller icons.
+
+I am not affiliated with Nintendo please don't sue me thank you :)
