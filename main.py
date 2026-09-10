@@ -20,7 +20,8 @@ move_inputs_a_jump = {"Jump": "SA", "Surf Jump": "SA", "Surf": "ZL", "Unsurf": "
                       "WallDrop": "SB", "Right": "Right", "Left": "Left", "Forward": "Up", "Back": "Down",
                       "Neutral": "Neutral", "Neutral Drop": "Neutral$SB", "Test": "White$White",
                       "Pause": "Plus", "Map": "Minus", "Skills Menu": "Dpad Up", "Photo Mode": "Dpad Down",
-                      "Center Camera": "R Click", "Twirl": "SA+SX", "Speedup": "SX", "Cutscene skip": "Plus/Minus"
+                      "Center Camera": "R Click", "Twirl": "SA+SX", "Speedup": "SX", "Cutscene skip": "Plus/Minus",
+                      "Glide": "Hold$ZL"
                       }
 techs = {"Rollpunch": "Roll > Punch",
          "Rolljump": "Roll > Jump",

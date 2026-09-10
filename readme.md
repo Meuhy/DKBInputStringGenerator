@@ -41,7 +41,7 @@ Pull Ball, Aim, Cancel Aim, Release, Roll, Kong, Ostrich,
 Zebra, Elephant, Snake, Drumbeat, Transform, Detransform, 
 WallJump, WallDrop, Right, Left, Forward, Back, Neutral, 
 Neutral Drop, Test, Pause, Map, Skills Menu, Photo Mode, 
-Twirl, Speedup
+Twirl, Speedup, Cutscene Skip
 ```
 
 Here is a list of all supported techs and their input sequence:
