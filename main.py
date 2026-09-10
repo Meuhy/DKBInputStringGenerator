@@ -8,6 +8,8 @@ from InputSequenceParams import InputSequenceParams
 
 # Bridge skip: Aim>Release>LCTJ>Unsurf>AFAT>FART>Unsurf>CDJ>Catch relefat>Stall fart>Unsurf>Chunk jump
 
+# SA, SB, SX, SY inputs are inputs that will get translated when going from A jump to B jump.
+# "SA" will show up as A on A jump and B on B jump.
 move_inputs_a_jump = {"Jump": "SA", "Surf Jump": "SA", "Surf": "ZL", "Unsurf": "ZL", "Boost": "SX", "Attack": "SX", "Swing": "Y",
                       "Down Swing": "SB", "Up Swing": "X", "Neutral Swing": "Y", "Stall": "Y", "Punch": "Y",
                       "Forward Punch": "Y", "Up Punch": "X", "Down Punch": "SB", "DivePunch": "SB", "Chunk Jump": "SA",
@@ -18,7 +20,7 @@ move_inputs_a_jump = {"Jump": "SA", "Surf Jump": "SA", "Surf": "ZL", "Unsurf": "
                       "WallDrop": "SB", "Right": "Right", "Left": "Left", "Forward": "Up", "Back": "Down",
                       "Neutral": "Neutral", "Neutral Drop": "Neutral$SB", "Test": "White$White",
                       "Pause": "Plus", "Map": "Minus", "Skills Menu": "Dpad Up", "Photo Mode": "Dpad Down",
-                      "Center Camera": "R Click", "Twirl": "SA+SX", "Speedup": "SX"
+                      "Center Camera": "R Click", "Twirl": "SA+SX", "Speedup": "SX", "Cutscene skip": "Plus/Minus"
                       }
 techs = {"Rollpunch": "Roll > Punch",
          "Rolljump": "Roll > Jump",
