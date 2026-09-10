@@ -74,7 +74,7 @@ Flutter Stall: Repeat (Surf+Stall)
 
 ## Installation
 
-If you simply want to use the apps, simply download the latest release.
+If you simply want to use the apps, simply download the [latest release](https://github.com/Meuhy/DKBInputStringGenerator/releases/latest).
 
 If you want to modify the app, then do the following:
 
