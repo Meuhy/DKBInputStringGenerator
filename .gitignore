@@ -1,0 +1,27 @@
+# PyCharm
+.idea/
+
+# Virtual environments
+venv/
+env/
+.venv/
+InputStringGenerator/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Application settings
+last_settings.txt
+
+# Generated images
+output.png
+
+# OS files
+.DS_Store
+Thumbs.db
