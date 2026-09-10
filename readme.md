@@ -78,12 +78,14 @@ If you want to use the app, simply download the [latest release](https://github.
 
 If you want to modify the app, then do the following:
 
-**Requierements**
+**Requirements**
  - Python 3
  - Git
 
 Clone the repository:
 `git clone https://github.com/Meuhy/DKBInputStringGenerator.git`
+
+Naviaguate into the project directory:
 `cd DKBInputStringGenerator`
 
 Create a virtual environment:
@@ -106,7 +108,7 @@ The application will be created in: `dist/DKB Input String Generator.app`
 # Installation (MacOS)
 I don't have a PC running on MacOS so I can't check if this works, sorry :(
 
-**Requierements**
+**Requirements**
  - Python 3
  - Git
 
